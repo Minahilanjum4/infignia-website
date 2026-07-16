@@ -1,9 +1,0 @@
-<svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroIconTitle">
-  <title id="heroIconTitle">Graduation cap icon</title>
-  <circle cx="36" cy="36" r="35" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
-  <polygon points="36,22 56,30 36,38 16,30" fill="#f5f0ff"/>
-  <polygon points="36,28 49,33 36,38 23,33" fill="#c4b5fd"/>
-  <path d="M25 33.5 V41 c0 3.6 4.9 6.5 11 6.5 s11 -2.9 11 -6.5 v-7.5" fill="none" stroke="#f5f0ff" stroke-width="1.6" stroke-linecap="round"/>
-  <line x1="56" y1="30" x2="56" y2="40" stroke="#f5a524" stroke-width="1.6"/>
-  <circle cx="56" cy="41.5" r="1.8" fill="#f5a524"/>
-</svg>
