@@ -1,0 +1,30 @@
+<svg width="480" height="380" viewBox="0 0 480 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="aboutTitle">
+  <title id="aboutTitle">Illustration of an open book beneath a graduation cap, representing Infignia's teaching philosophy</title>
+
+  <circle cx="240" cy="190" r="165" fill="#EDEFF3"/>
+
+  <!-- open book -->
+  <g>
+    <path d="M100 230 L240 205 L240 260 L100 285 Z" fill="#FFFFFF" stroke="#DDE1E8" stroke-width="1.5"/>
+    <path d="M380 230 L240 205 L240 260 L380 285 Z" fill="#FFFFFF" stroke="#DDE1E8" stroke-width="1.5"/>
+    <path d="M110 236 L232 214" stroke="#EDEFF3" stroke-width="3"/>
+    <path d="M110 250 L232 230" stroke="#EDEFF3" stroke-width="3"/>
+    <path d="M110 264 L220 246" stroke="#EDEFF3" stroke-width="3"/>
+    <path d="M370 236 L248 214" stroke="#EDEFF3" stroke-width="3"/>
+    <path d="M370 250 L248 230" stroke="#EDEFF3" stroke-width="3"/>
+    <path d="M370 264 L260 246" stroke="#EDEFF3" stroke-width="3"/>
+  </g>
+
+  <!-- mortarboard -->
+  <g>
+    <polygon points="240,90 350,130 240,170 130,130" fill="#12213A"/>
+    <polygon points="240,110 322,132 240,154 158,132" fill="#1E3A5F"/>
+    <rect x="236" y="130" width="8" height="46" fill="#12213A"/>
+    <circle cx="240" cy="178" r="6" fill="#C9A227"/>
+    <line x1="322" y1="132" x2="335" y2="176" stroke="#C9A227" stroke-width="2"/>
+    <circle cx="335" cy="180" r="4" fill="#C9A227"/>
+  </g>
+
+  <circle cx="90" cy="120" r="4" fill="#C9A227"/>
+  <circle cx="400" cy="150" r="3" fill="#12213A" opacity="0.5"/>
+</svg>
