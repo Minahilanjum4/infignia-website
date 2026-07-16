@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infignia — Cambridge O &amp; A Level Tuition</title>
+  <meta name="description" content="Infignia is a Cambridge O Level and A Level tuition academy. Small batches, subject specialists and past-paper-driven teaching.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Dark-mode toggle checkbox: first child of body so its :checked state
+       can be read anywhere on the page via the :has() selector. -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
+
+  <!-- ===================== HEADER / NAVIGATION ===================== -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="brand">
+        <img src="images/logo.svg" alt="Infignia crest" width="40" height="40">
+        <span>
+          Infignia
+          <span class="eyebrow-tag">O &amp; A Level Academy</span>
+        </span>
+      </a>
+
+      <!-- CSS-only mobile menu: checkbox + label, no JavaScript -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <label for="theme-toggle" class="theme-toggle-label" aria-label="Toggle dark mode"></label>
+        <a href="contact.html" class="btn btn-lavender nav-cta">Book a Trial</a>
+        <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </label>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="container">
+        <img class="hero-icon fade-up" src="images/hero-icon.svg" alt="" width="72" height="72">
+        <h1 class="fade-up">Your Grades <span class="accent">Await.</span></h1>
+        <p class="hero-lede fade-up">
+          Infignia is a small tuition academy for O Level and A Level students. My team and I teach
+          Mathematics, the Sciences, Economics and Computer Science through focused batches, weekly
+          past-paper practice and honest progress reports.
+        </p>
+        <div class="hero-actions fade-up">
+          <a href="contact.html" class="btn btn-lavender">Book a Free Trial Class</a>
+          <a href="services.html" class="btn btn-outline" style="border-color:rgba(255,255,255,0.3); color:#fff;">Explore Courses</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>96%</strong><span>A*&ndash;B grade rate</span></div>
+          <div><strong>8+</strong><span>Subjects taught</span></div>
+          <div><strong>12</strong><span>Students per batch, max</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT US (teaser, collage) ===================== -->
+    <section class="section about-collage-wrap">
+      <div class="container">
+        <span class="eyebrow">About Us</span>
+        <h2>Built by teachers, not a franchise</h2>
+        <div class="about-copy">
+          <p>
+            Infignia is a Cambridge-curriculum tuition academy based in Lahore. We are not just running
+            batches; we are shaping how O Level and A Level students actually learn Mathematics, the
+            Sciences, Economics and Computer Science. Founded on the belief that large classrooms and
+            generic notes were failing capable students, we started Infignia in 2023 with a simple
+            mission: teach the exam honestly.
+          </p>
+          <p>
+            Every course we run stays capped at twelve students, taught by someone who specialises in
+            that exact subject at that exact level. Our commitment doesn't stop at covering the
+            syllabus &mdash; it's about turning genuine understanding into a grade that reflects it.
+          </p>
+        </div>
+        <img class="about-collage-img" src="images/about-collage.svg" alt="Illustration of Infignia's mentors surrounded by icons for the subjects they teach" width="640" height="320">
+      </div>
+    </section>
+
+    <!-- ===================== RESOURCES STRIP ===================== -->
+    <section class="strip">
+      <div class="container">
+        <h3>Cambridge Syllabus Coverage Across Every Core Subject</h3>
+        <div class="strip-row">
+          <div class="strip-badge" title="Mathematics"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M4 4h16M6 4l6 8-6 8M18 4l-3 5"/></svg></div>
+          <div class="strip-badge" title="Physics"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="12" r="1.6" fill="#fff"/><ellipse cx="12" cy="12" rx="9" ry="3.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/></svg></div>
+          <div class="strip-badge" title="Chemistry"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M10 3h4v6l5 9a3.5 3.5 0 0 1-3 5H8a3.5 3.5 0 0 1-3-5l5-9z"/></svg></div>
+          <div class="strip-badge" title="Biology"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M12 20c-5-2-6-7-4-12 5 1 9 4 8 9-4-1-7-4-8-8"/></svg></div>
+          <div class="strip-badge" title="Economics"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M4 20h16M7 20v-6M12 20v-9M17 20v-13"/></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GOAL SECTION 1 ===================== -->
+    <section class="goal-section">
+      <div class="container goal-grid">
+        <div class="goal-media">
+          <img src="images/goal-mentor.svg" alt="Illustration of an Infignia tutor working at a desk" width="480" height="380">
+          <div class="goal-float-card top-right">
+            <div>
+              <strong>128</strong>
+              <span>New Students &middot; This Term</span>
+            </div>
+          </div>
+          <div class="goal-float-card bottom-left">
+            <div>
+              <strong>Attendance</strong>
+              <div class="goal-chart">
+                <span style="height:40%"></span><span style="height:65%"></span><span style="height:50%"></span><span style="height:80%"></span><span style="height:60%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="goal-copy">
+          <span class="eyebrow">Our Approach</span>
+          <h2>Built Around What Actually Shows Up On the Paper</h2>
+          <p>Every subject we teach is taught back-to-front from the exam board's own past papers, not a generic textbook order.</p>
+          <ul>
+            <li>Weekly past-paper practice, marked against the real mark scheme</li>
+            <li>Progress reports that tell parents what's solid and what isn't</li>
+            <li>Batches capped at twelve so no question goes unanswered</li>
+          </ul>
+          <a href="about.html" class="btn btn-dark">Discover More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GOAL SECTION 2 (reversed, video-style) ===================== -->
+    <section class="goal-section section-alt">
+      <div class="container goal-grid reverse">
+        <div class="goal-media">
+          <img src="images/goal-video.svg" alt="Illustration of a teacher explaining a topic to a small class" width="480" height="340">
+          <div class="play-overlay">
+            <div class="play-btn">
+              <svg viewBox="0 0 24 24" fill="#4c1d95"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="goal-copy">
+          <span class="eyebrow">Inside a Session</span>
+          <h2>Watch a Sample Class Before You Commit</h2>
+          <p>See exactly how a Mathematics or Physics session runs &mdash; concept first, worked examples second, timed practice last.</p>
+          <ul>
+            <li>Concept explained clearly before any formula is introduced</li>
+            <li>Worked past-paper examples solved on the board, step by step</li>
+            <li>Every student leaves with a timed question to try at home</li>
+          </ul>
+          <a href="contact.html" class="btn btn-dark">More About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MID-PAGE BANNER ===================== -->
+    <section class="mid-banner">
+      <div class="container">
+        <h2>We Make Exam Prep Simple</h2>
+        <p>Fewer distractions, better feedback &mdash; that's how a grade actually improves.</p>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ICON GRID ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">Subjects</span>
+          <h2>Six Core Subjects, Taught by Specialists</h2>
+        </div>
+        <div class="icon-grid">
+          <article class="icon-tile">
+            <img src="images/icon-math.svg" alt="">
+            <h3>Mathematics</h3>
+            <p>Pure Maths, Mechanics and Statistics built up from first principles, with weekly problem sets.</p>
+          </article>
+          <article class="icon-tile">
+            <img src="images/icon-physics.svg" alt="">
+            <h3>Physics</h3>
+            <p>Concept-first teaching for mechanics, fields and modern physics, paired with practical drills.</p>
+          </article>
+          <article class="icon-tile">
+            <img src="images/icon-chemistry.svg" alt="">
+            <h3>Chemistry</h3>
+            <p>Builds the reasoning behind reactions and calculations, not just memorised equations.</p>
+          </article>
+          <article class="icon-tile">
+            <img src="images/icon-biology.svg" alt="">
+            <h3>Biology</h3>
+            <p>Structured around Cambridge's own topic list, reinforced with diagram and data-response practice.</p>
+          </article>
+          <article class="icon-tile">
+            <img src="images/icon-economics.svg" alt="">
+            <h3>Economics</h3>
+            <p>Micro and macro theory taught alongside real case studies and examiner-style essay technique.</p>
+          </article>
+          <article class="icon-tile">
+            <img src="images/icon-cs.svg" alt="">
+            <h3>Computer Science</h3>
+            <p>Theory papers covering data structures and systems, paired with hands-on programming practice.</p>
+          </article>
+        </div>
+        <div style="text-align:center; margin-top:2.6rem;">
+          <a href="services.html" class="btn btn-lavender" style="color:var(--purple-950);">View All Courses</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">Results</span>
+          <h2>Loved by Students Across Lahore</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"I went into the Mathematics paper actually confident, because I'd already solved harder versions of every question in class."</p>
+            <div class="testimonial-person">
+              <div class="avatar-initials">HZ</div>
+              <div><strong>Hamza Z.</strong><span>A Level Mathematics</span></div>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"The batch was small enough that my teacher noticed exactly where I kept losing marks in Chemistry &mdash; and fixed it."</p>
+            <div class="testimonial-person">
+              <div class="avatar-initials">AR</div>
+              <div><strong>Ayesha R.</strong><span>O Level Chemistry</span></div>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"Weekly past papers under timed conditions made the real exam feel like just another Tuesday."</p>
+            <div class="testimonial-person">
+              <div class="avatar-initials">BK</div>
+              <div><strong>Bilal K.</strong><span>A Level Physics</span></div>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"Our progress report actually told us what to fix, not just a grade prediction."</p>
+            <div class="testimonial-person">
+              <div class="avatar-initials">SN</div>
+              <div><strong>Sana N.</strong><span>Parent, O Level Biology</span></div>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"Economics finally made sense once we started marking essays against the examiner report."</p>
+            <div class="testimonial-person">
+              <div class="avatar-initials">TM</div>
+              <div><strong>Talha M.</strong><span>A Level Economics</span></div>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"Small batch, real feedback, and a teacher who actually answers questions after class."</p>
+            <div class="testimonial-person">
+              <div class="avatar-initials">RK</div>
+              <div><strong>Rida K.</strong><span>A Level Computer Science</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STATS BAR ===================== -->
+    <section class="stats-bar">
+      <div class="container stats-row">
+        <div><strong>500+</strong><span>Students Taught</span></div>
+        <div><strong>96%</strong><span>A*&ndash;B Grade Rate</span></div>
+        <div><strong>12</strong><span>Max Students / Batch</span></div>
+        <div><strong>8+</strong><span>Subjects Offered</span></div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="section" style="padding-top:4.5rem;">
+      <div class="container">
+        <div class="cta-banner">
+          <div>
+            <h2>Join the Next Infignia Batch</h2>
+            <p>Book a free trial class and sit in on a real session before you commit.</p>
+          </div>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-lavender">Book a Trial</a>
+            <a href="contact.html" class="btn btn-white">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="images/logo.svg" alt="Infignia crest" width="36" height="36">
+            <span>Infignia</span>
+          </a>
+          <p>A small Cambridge O Level and A Level tuition academy, teaching Mathematics, the Sciences, Economics and Computer Science.</p>
+          <div class="social-row">
+            <a href="https://facebook.com" class="social-icon" aria-label="Infignia on Facebook" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg>
+            </a>
+            <a href="https://instagram.com" class="social-icon" aria-label="Infignia on Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+            </a>
+            <a href="https://wa.me/923000000000" class="social-icon" aria-label="Infignia on WhatsApp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M4 20l1.3-3.9A8 8 0 1 1 9 18.7L4 20z"/><path d="M8.5 9.5c0 4 3 7 7 7"/></svg>
+            </a>
+            <a href="https://linkedin.com" class="social-icon" aria-label="Infignia on LinkedIn" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="8" y1="11" x2="8" y2="16"/><circle cx="8" cy="8" r="0.6"/><path d="M12 16v-3c0-1.4 1-2.2 2.2-2.2S16 11.6 16 13v3"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="services.html">Courses</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="services.html">Batch Plans</a></li>
+            <li><a href="contact.html">Book a Trial</a></li>
+            <li><a href="about.html">Our Team</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#fff; font-size:0.85rem; letter-spacing:0.06em; text-transform:uppercase; margin-bottom:1rem;">Reach Us</h4>
+          <div style="display:flex; flex-direction:column; gap:0.7rem; margin-bottom:1.4rem;">
+            <div class="footer-info-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c4b5fd" stroke-width="2"><path d="M4 5c0 8 7 15 15 15l2-4-5-2-1.5 1.5A11.4 11.4 0 0 1 9 10.5L10.5 9 8.5 4 4 5z"/></svg>
+              <span>+92 300 000 0000</span>
+            </div>
+            <div class="footer-info-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c4b5fd" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 6l9 7 9-7"/></svg>
+              <span>hello@infignia.com</span>
+            </div>
+            <div class="footer-info-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c4b5fd" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <span>Gulberg III, Lahore, Pakistan</span>
+            </div>
+          </div>
+          <div class="newsletter-box">
+            <h4>Join Our Newsletter</h4>
+            <p>Batch openings and free past-paper drops, once a month.</p>
+            <div class="newsletter-form">
+              <input type="email" placeholder="Your email address" aria-label="Email address">
+              <button type="button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Infignia Academy. All rights reserved.</span>
+        <span>Built with HTML5 &amp; CSS3 &mdash; no frameworks.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
