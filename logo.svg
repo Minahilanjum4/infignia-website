@@ -1,7 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle">
-  <title id="logoTitle">Infignia logo</title>
-  <rect x="0.5" y="0.5" width="39" height="39" rx="11" fill="#2c0e57"/>
-  <path d="M20 8 L30 13.5 L20 19 L10 13.5 Z" fill="#c4b5fd"/>
-  <path d="M13 16.2 V22 c0 3 3.2 5.4 7 5.4 s7 -2.4 7 -5.4 v-5.8" fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-linecap="round"/>
-  <circle cx="30" cy="13.5" r="1.4" fill="#f5a524"/>
-</svg>
